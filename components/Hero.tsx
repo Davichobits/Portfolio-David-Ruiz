@@ -1,7 +1,13 @@
+import Image from 'next/image';
+//components
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import { MagicButton } from './ui/MagicButton';
+// images
 import profileImg from '@/assets/profile_green.webp'
-import Image from 'next/image';
+// icons
+import { BsArrowDownCircle } from 'react-icons/bs'
+
 
 const Hero = () => {
   return (
@@ -22,11 +28,20 @@ const Hero = () => {
       </div>
       <div className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-        <Image className='rounded-full w-40 h-40' src={profileImg} alt="Descripción de la imagen"/>
+          <Image className='rounded-full w-40 h-40' src={profileImg} alt="Descripción de la imagen" />
           <h2 className='uppercase tracking-widest text-2xl text-center text-blue-100 max-w-80'>
             David Ruiz
           </h2>
-          <TextGenerateEffect words={'Frontend Developer'} />
+          <TextGenerateEffect className='mb-8' words={'Frontend Developer'} />
+
+          <a href="#about">
+            <MagicButton 
+              title="My work"
+              otherClasses='gap-2'
+              icon={<BsArrowDownCircle size={20} />}
+              position='right'
+            />
+          </a>
         </div>
       </div>
     </div>
