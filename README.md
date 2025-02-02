@@ -2,7 +2,21 @@
 
 ![Portfolio](/public/Portfolio.webp)
 
-## Getting Started
+
+## Live site
+
+You can view the live site here: [codingtube.dev](https://www.davidruizdeveloper.com)
+
+## Website
+
+The main technologies used in this project are:
+
+- Tailwind CSS
+- React
+- Next.js
+- TypeScript
+
+## Installation
 
 First, run the development server:
 
