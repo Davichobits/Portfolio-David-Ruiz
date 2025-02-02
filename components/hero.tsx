@@ -23,9 +23,9 @@ export function Hero() {
         </p>
       </div>
       <div className="flex gap-4 mt-4">
-        <Button asChild>
+        {/* <Button asChild>
           <a href="#contact">Contact Me</a>
-        </Button>
+        </Button> */}
         <Button variant="outline" asChild>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             View Resume
