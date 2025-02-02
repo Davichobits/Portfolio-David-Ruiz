@@ -17,12 +17,12 @@ export function Projects() {
       technologies: [, "Tailwind CSS", "React", "Typescript", "Next.js"],
       link: "https://github.com/Davichobits/nextjs-dashboard",
     },
-    {
-      title: "Personal Portfolio",
-      description: "A responsive Frontend Developer portfolio",
-      technologies: [, "Tailwind CSS", "React", "Typescript", "Next.js"],
-      link: "https://github.com/Davichobits/Portfolio-David-Ruiz",
-    },
+    // {
+    //   title: "Personal Portfolio",
+    //   description: "A responsive Frontend Developer portfolio",
+    //   technologies: [, "Tailwind CSS", "React", "Typescript", "Next.js"],
+    //   link: "https://github.com/Davichobits/Portfolio-David-Ruiz",
+    // },
   ]
 
   return (
