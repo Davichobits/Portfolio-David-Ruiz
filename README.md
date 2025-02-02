@@ -1,6 +1,6 @@
 # David Ruiz Portfolio
 
-![Portfolio](/Portfolio.webp)
+![Portfolio](/public/Portfolio.webp)
 
 ## Getting Started
 
