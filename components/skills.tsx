@@ -15,7 +15,7 @@ export function Skills() {
         {skills.map((skill) => (
           <Card key={skill}>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <Image src={`/skills/${skill}.svg`} alt={skill} width={24} height={24} />
+              <Image src={`/skills/${skill.toLocaleLowerCase()}.svg`} alt={skill} width={24} height={24} />
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{skill}</div>

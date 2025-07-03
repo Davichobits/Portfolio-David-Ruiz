@@ -7,12 +7,14 @@ export function Projects() {
   const projects = [
     {
       title: "Documentation Site",
+      url: '/projects/documentation-site.webp',
       description: "A full-featured e-commerce platform built with Next.js and Stripe integration.",
       technologies: ["Tailwind CSS", "Docusaurus", "React", "Typescritpt"],
       link: "https://github.com/Davichobits/CodingTube-Docs",
     },
     {
       title: "Dashboard App",
+      url: '/projects/dashboard-app.webp',
       description: "A responsive task management application with real-time updates.",
       technologies: [, "Tailwind CSS", "React", "Typescript", "Next.js"],
       link: "https://github.com/Davichobits/nextjs-dashboard",
@@ -31,7 +33,7 @@ export function Projects() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
         {projects.map((project) => (
           <Card key={project.title} className="flex items-center pl-4">
-            <Image className="rounded-xl border bg-card" src={`/projects/${project.title}.webp`} alt={project.title} width={200} height={200} />
+            <Image className="rounded-xl border bg-card" src={project.url} alt={project.title} width={200} height={200} />
             <div>
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>

@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <Image
-        src="/profile.webp"
+        src="/Profile.webp"
         width={200}
         height={200}
         alt="David Ruiz profile picture"
