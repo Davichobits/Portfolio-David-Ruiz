@@ -15,9 +15,6 @@ export function Header() {
             <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="#projects">
               Projects
             </a>
-            <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="#contact">
-              Contact
-            </a>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">

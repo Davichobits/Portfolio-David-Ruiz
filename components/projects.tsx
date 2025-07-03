@@ -32,7 +32,7 @@ export function Projects() {
       <h2 className="text-2xl font-bold tracking-tight mb-6">Projects</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
         {projects.map((project) => (
-          <Card key={project.title} className="flex items-center pl-4">
+          <Card key={project.title} className="flex items-center p-2 border-2 flex-col md:flex-row md:pl-4">
             <Image className="rounded-xl border bg-card" src={project.url} alt={project.title} width={200} height={200} />
             <div>
               <CardHeader>
