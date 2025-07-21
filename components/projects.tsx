@@ -9,7 +9,7 @@ export function Projects() {
       title: "Documentation Site",
       url: '/projects/documentation-site.webp',
       description: "A full-featured e-commerce platform built with Next.js and Stripe integration.",
-      technologies: ["Tailwind CSS", "Docusaurus", "React", "Typescritpt"],
+      technologies: ["Tailwind CSS", "Docusaurus", "React", "Typescritpt", "Vite"],
       link: "https://github.com/Davichobits/CodingTube-Docs",
     },
     {
@@ -18,6 +18,20 @@ export function Projects() {
       description: "Variables generator from Frontend Challenge Instrucctions into CSS o Tailwind",
       technologies: ["Typescript", "Node"],
       link: "https://github.com/Davichobits/css-variables-generator",
+    },
+    {
+      title: "Product list with cart",
+      url: '/projects/cart.webp',
+      description: "A product list with cart functionality built with React.",
+      technologies: ["Typescript", "React", "Tailwind CSS", "Zustand", "Vite"],
+      link: "https://github.com/Davichobits/product-list-with-cart",
+    },
+    {
+      title: "Browser Extension Manager",
+      url: '/projects/manager.webp',
+      description: "A browser extension with dark and light mode.",
+      technologies: ["Javascript", "React", "Tailwind CSS", "Vite"],
+      link: "https://browser-extension-manager-two.vercel.app/",
     },
   ]
 
