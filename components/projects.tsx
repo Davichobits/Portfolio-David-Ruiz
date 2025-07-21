@@ -13,18 +13,12 @@ export function Projects() {
       link: "https://github.com/Davichobits/CodingTube-Docs",
     },
     {
-      title: "Dashboard App",
-      url: '/projects/dashboard-app.webp',
-      description: "A responsive task management application with real-time updates.",
-      technologies: [, "Tailwind CSS", "React", "Typescript", "Next.js"],
-      link: "https://github.com/Davichobits/nextjs-dashboard",
+      title: "Visual Studio Code extension",
+      url: '/projects/marketplace.webp',
+      description: "Variables generator from Frontend Challenge Instrucctions into CSS o Tailwind",
+      technologies: ["Typescript", "Node"],
+      link: "https://github.com/Davichobits/css-variables-generator",
     },
-    // {
-    //   title: "Personal Portfolio",
-    //   description: "A responsive Frontend Developer portfolio",
-    //   technologies: [, "Tailwind CSS", "React", "Typescript", "Next.js"],
-    //   link: "https://github.com/Davichobits/Portfolio-David-Ruiz",
-    // },
   ]
 
   return (
