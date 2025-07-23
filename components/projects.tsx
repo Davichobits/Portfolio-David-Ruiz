@@ -1,10 +1,9 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { Project } from '@/types/types'
+import { ProjectCard } from './ui/project-card'
 
 export function Projects() {
-  const projects = [
+
+  const projects: Project[] = [
     {
       title: "Documentation Site",
       url: '/projects/documentation-site.webp',
@@ -40,31 +39,7 @@ export function Projects() {
       <h2 className="text-2xl font-bold tracking-tight mb-6">Projects</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
         {projects.map((project) => (
-          <Card key={project.title} className="flex items-center p-2 border-2 flex-col md:flex-row md:pl-4">
-            <Image className="rounded-xl border bg-card" src={project.url} alt={project.title} width={200} height={200} />
-            <div>
-              <CardHeader>
-                <CardTitle>{project.title}</CardTitle>
-                <CardDescription>{project.description}</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary">
-                      {tech}
-                    </Badge>
-                  ))}
-                </div>
-              </CardContent>
-              <CardFooter>
-                <Button asChild>
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    View Project
-                  </a>
-                </Button>
-              </CardFooter>
-            </div>
-          </Card>
+          <ProjectCard key={project.title} {...project} />
         ))}
       </div>
     </section>
