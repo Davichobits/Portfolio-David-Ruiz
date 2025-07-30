@@ -4,7 +4,7 @@ import Image from "next/image"
 export function Skills() {
   const skills = [
     "HTML", "CSS", "Sass", "Tailwind CSS", "Material-UI", "Figma", 
-    "Javascript", "TypeScript", "React", "Next", "Firebase", 
+    "Javascript", "TypeScript", "React", "Next", "Astro", "Firebase", 
     "Dart", "Flutter", "Git", "GitHub"
   ]
 
