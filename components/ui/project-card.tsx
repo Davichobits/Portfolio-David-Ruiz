@@ -35,7 +35,7 @@ export const ProjectCard = ({
 
       <div className='bg-black/75 xl:bg-transparent absolute inset-0'></div>
 
-      <div className='absolute z-10 inset-0 cursor-pointer hover:block xl:mt-0 xl:ml-[250px]'>
+      <div className='absolute z-10 inset-0 hover:block xl:mt-0 xl:ml-[250px]'>
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
