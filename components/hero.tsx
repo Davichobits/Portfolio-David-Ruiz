@@ -19,7 +19,7 @@ export function Hero() {
           Frontend Developer
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Passionate about creating beautiful, responsive, and user-friendly web applications. My ultimate ambition is to work remotely, collaborating with international teams and contributing to impactful projects.
+          Highly specialized Frontend Developer with experience delivering responsive, scalable, and high-performance web and mobile applications. Skilled in technologies like React.js, Next.js, TypeScript, JavaScript and Astro.
         </p>
       </div>
       <div className="flex gap-4 mt-4">

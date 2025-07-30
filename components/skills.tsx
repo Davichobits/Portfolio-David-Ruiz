@@ -13,8 +13,8 @@ export function Skills() {
       <h2 className="text-2xl font-bold tracking-tight mb-6">Skills</h2>
       <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {skills.map((skill) => (
-          <Card key={skill}>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+          <Card key={skill} className='hover:shadow-lg hover:shadow-white transition-colors'>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2 ">
               <Image src={`/skills/${skill.toLocaleLowerCase()}.svg`} alt={skill} width={24} height={24} />
             </CardHeader>
             <CardContent>
