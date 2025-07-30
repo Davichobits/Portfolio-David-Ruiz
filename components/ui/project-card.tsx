@@ -43,14 +43,14 @@ export const ProjectCard = ({
         <CardContent>
           <div className='flex flex-wrap gap-2'>
             {technologies.map((tech) => (
-              <Badge key={tech} variant='secondary'>
+              <Badge className='border border-white font-normal' key={tech} variant='secondary'>
                 {tech}
               </Badge>
             ))}
           </div>
         </CardContent>
         <CardFooter>
-          <Button asChild>
+          <Button asChild className='border border-white font-semibold'>
             <a href={link} target='_blank' rel='noopener noreferrer'>
               View Project
             </a>
