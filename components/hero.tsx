@@ -13,11 +13,10 @@ export function Hero() {
       />
       <div>
       <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
+        <h2 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           David Ruiz
-          <br className="hidden sm:inline" />
-          Frontend Developer
-        </h1>
+        </h2>
+        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">Frontend Developer</h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
           Highly specialized Frontend Developer with experience delivering responsive, scalable, and high-performance web and mobile applications. Skilled in technologies like React.js, Next.js, TypeScript, JavaScript and Astro.
         </p>

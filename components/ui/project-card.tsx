@@ -21,11 +21,11 @@ export const ProjectCard = ({
   return (
     <Card
       key={title}
-      className='flex items-center p-2 border-2 flex-col relative overflow-hidden'
+      className='flex items-center p-2 border-2 flex-col relative overflow-hidden h-60'
     >
-      <div className='absolute top-0 h-[150px] overflow-hidden shadow-md xl:h-full xl:left-0 xl:w-[250px]'>
+      <div className='absolute top-0 z-0 overflow-hidden shadow-md xl:h-full xl:left-0 xl:w-[250px]'>
         <Image
-          className='w-full min-h-full bg-card'
+          className='w-full min-h-full'
           src={url}
           alt={title}
           width={300}
@@ -33,7 +33,9 @@ export const ProjectCard = ({
         />
       </div>
 
-      <div className='mt-[150px] xl:mt-0 xl:ml-[250px]'>
+      <div className='bg-black/75 xl:bg-transparent absolute inset-0'></div>
+
+      <div className='absolute z-10 inset-0 cursor-pointer hover:block xl:mt-0 xl:ml-[250px]'>
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
