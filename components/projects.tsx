@@ -7,9 +7,9 @@ export function Projects() {
     {
       title: "Documentation Site",
       url: '/projects/documentation-site.webp',
-      description: "A full-featured e-commerce platform built with Next.js and Stripe integration.",
-      technologies: ["Tailwind CSS", "Docusaurus", "React", "Typescritpt", "Vite"],
-      link: "https://github.com/Davichobits/CodingTube-Docs",
+      description: "Official CodingTube documentation.",
+      technologies: ["Tailwind CSS", "Fumadocs", "Next.js", "Typescritpt", "Vite"],
+      link: "https://github.com/Davichobits/codingtube-fumadocs",
     },
     {
       title: "Visual Studio Code extension",
@@ -30,21 +30,21 @@ export function Projects() {
       url: '/projects/manager.webp',
       description: "A browser extension with dark and light mode.",
       technologies: ["Javascript", "React", "Tailwind CSS", "Vite"],
-      link: "https://browser-extension-manager-two.vercel.app/",
+      link: "https://github.com/Davichobits/browser-extension-manager",
     },
     {
       title: "Meet Landing Page",
       url: '/projects/meet.webp',
       description: "Landing page built with Astro",
       technologies: ["Typescript", "Astro", "Tailwind CSS"],
-      link: "https://meet-landing-page-drd.netlify.app/",
+      link: "https://github.com/Davichobits/meet-landing-page",
     },
     {
       title: "News Home Page",
       url: '/projects/news.webp',
       description: "A responsive and modern homepage layout for a news blog website.",
       technologies: ["Typescript", "Astro", "Tailwind CSS"],
-      link: "https://news-homepage-drd.netlify.app//",
+      link: "https://github.com/Davichobits/news-homepage",
     },
   ]
 

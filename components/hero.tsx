@@ -12,16 +12,16 @@ export function Hero() {
         className="rounded-full"
       />
       <div>
-      <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h2 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
+      <div className="flex max-w-[980px] flex-col gap-2">
+        <h2 className="text-3xl font-extrabold leading-tight tracking-tighter text-center lg:text-left md:text-4xl">
           David Ruiz
         </h2>
-        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">Frontend Developer</h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground">
+        <h1 className="text-3xl font-extrabold leading-tight tracking-tighter text-center lg:text-left md:text-4xl">Frontend Developer</h1>
+        <p className="max-w-[700px] text-lg text-muted-foreground text-center lg:text-left">
           Highly specialized Frontend Developer with experience delivering responsive, scalable, and high-performance web and mobile applications. Skilled in technologies like React.js, Next.js, TypeScript, JavaScript and Astro.
         </p>
       </div>
-      <div className="flex gap-4 mt-4">
+      <div className="flex gap-4 mt-4 justify-center lg:justify-start">
         <Button variant="outline" asChild>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             View Resume
