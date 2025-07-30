@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+    <section className="container flex flex-col lg:flex-row items-center gap-6 pb-8 pt-6 md:py-10">
       <Image
         src="/Profile.webp"
         width={200}
@@ -22,9 +22,6 @@ export function Hero() {
         </p>
       </div>
       <div className="flex gap-4 mt-4">
-        <Button asChild>
-          <a href="#contact">Contact Me</a>
-        </Button>
         <Button variant="outline" asChild>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             View Resume
