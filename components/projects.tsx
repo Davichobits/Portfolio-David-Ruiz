@@ -32,6 +32,20 @@ export function Projects() {
       technologies: ["Javascript", "React", "Tailwind CSS", "Vite"],
       link: "https://browser-extension-manager-two.vercel.app/",
     },
+    {
+      title: "Meet Landing Page",
+      url: '/projects/meet.webp',
+      description: "Landing page built with Astro",
+      technologies: ["Typescript", "Astro", "Tailwind CSS"],
+      link: "https://meet-landing-page-drd.netlify.app/",
+    },
+    {
+      title: "News Home Page",
+      url: '/projects/news.webp',
+      description: "A responsive and modern homepage layout for a news blog website.",
+      technologies: ["Typescript", "Astro", "Tailwind CSS"],
+      link: "https://news-homepage-drd.netlify.app//",
+    },
   ]
 
   return (
