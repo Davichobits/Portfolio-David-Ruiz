@@ -31,6 +31,7 @@ export function Skills() {
             <div className='relative inset-0 h-full rounded-lg bg-card text-card-foreground'>
               <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2 '>
                 <Image
+                  className='size-6'
                   src={`/skills/${skill.toLocaleLowerCase()}.svg`}
                   alt={skill}
                   width={24}

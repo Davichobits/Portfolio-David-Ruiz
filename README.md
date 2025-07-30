@@ -27,7 +27,7 @@ npm run build
 ## Production Preview
 
 ```bash
-npm run preview
+npx serve@latest out
 ```
 
 ## Author
