@@ -12,6 +12,7 @@ export function Skills() {
     'Javascript',
     'TypeScript',
     'React',
+    'Zustand',
     'Next',
     'Astro',
     'Firebase',
