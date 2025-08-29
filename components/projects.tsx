@@ -46,6 +46,13 @@ export function Projects() {
       technologies: ["Typescript", "Astro", "Tailwind CSS"],
       link: "https://github.com/Davichobits/news-homepage",
     },
+    {
+      title: "Tip Calculator App",
+      url: '/projects/calculator.webp',
+      description: "Quickly calculates the tip and total cost per person.",
+      technologies: ["Typescript", "React", "Tailwind CSS", "Zustand"],
+      link: "https://github.com/Davichobits/tip-calculator-app-react",
+    },
   ]
 
   return (
