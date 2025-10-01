@@ -53,6 +53,13 @@ export function Projects() {
       technologies: ["Typescript", "React", "Tailwind CSS", "Zustand"],
       link: "https://github.com/Davichobits/tip-calculator-app-react",
     },
+    {
+      title: "Mortgage Repayment Calculator",
+      url: '/projects/mortgage.webp',
+      description: "Calculates monthly repayments based on loan amount and interest rate",
+      technologies: ["Typescript", "React", "Tailwind CSS", "Context API", "React Hook Form"],
+      link: "https://github.com/Davichobits/mortgage-repayment-calculator",
+    },
   ]
 
   return (
