@@ -40,6 +40,13 @@ export function Projects() {
       link: "https://github.com/Davichobits/meet-landing-page",
     },
     {
+      title: "Fylo landing page",
+      url: '/projects/fylo.webp',
+      description: "Responsive landing page for the Fylo company",
+      technologies: ["Typescript", "Astro", "Tailwind CSS"],
+      link: "https://github.com/Davichobits/fylo-landing-page",
+    },
+    {
       title: "News Home Page",
       url: '/projects/news.webp',
       description: "A responsive and modern homepage layout for a news blog website.",
