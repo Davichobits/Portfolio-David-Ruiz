@@ -33,6 +33,13 @@ export function Projects() {
       link: "https://github.com/Davichobits/browser-extension-manager",
     },
     {
+      title: "Conference Ticket Generator",
+      url: '/projects/ticket.webp',
+      description: "A web application that allows users to generate their own conference ticket.",
+      technologies: ["Typescript", "React", "Tailwind CSS", "Vite", "React Hook Form", "Zustand"],
+      link: "https://github.com/Davichobits/conference-ticket-generator",
+    },
+    {
       title: "Meet Landing Page",
       url: '/projects/meet.webp',
       description: "Landing page built with Astro",
@@ -40,18 +47,18 @@ export function Projects() {
       link: "https://github.com/Davichobits/meet-landing-page",
     },
     {
-      title: "Fylo landing page",
-      url: '/projects/fylo.webp',
-      description: "Responsive landing page for the Fylo company",
-      technologies: ["Typescript", "Astro", "Tailwind CSS"],
-      link: "https://github.com/Davichobits/fylo-landing-page",
-    },
-    {
       title: "News Home Page",
       url: '/projects/news.webp',
       description: "A responsive and modern homepage layout for a news blog website.",
       technologies: ["Typescript", "Astro", "Tailwind CSS"],
       link: "https://github.com/Davichobits/news-homepage",
+    },
+    {
+      title: "Fylo landing page",
+      url: '/projects/fylo.webp',
+      description: "Responsive landing page for the Fylo company",
+      technologies: ["Typescript", "Astro", "Tailwind CSS"],
+      link: "https://github.com/Davichobits/fylo-landing-page",
     },
     {
       title: "Tip Calculator App",
